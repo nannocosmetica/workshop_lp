@@ -15,7 +15,7 @@ function App() {
         <div
           className="
         absolute inset-0
-        bg-[url('./bg.jpg')]
+        bg-[url('/bg.jpg')]
         bg-cover
         bg-center
         "

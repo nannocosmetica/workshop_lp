@@ -21,7 +21,7 @@ const WhoSection = () => {
         className="
           absolute
           inset-0
-          bg-[url('./bg.jpg')]
+          bg-[url('/bg.jpg')]
           bg-cover
           bg-center
           scale-x-[-1]
