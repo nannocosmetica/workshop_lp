@@ -3,7 +3,7 @@ function HeroSection() {
     <section className="relative z-10 flex flex-col lg:flex-row min-h-screen px-4 lg:px-12 pt-20" id="inicio">
       {/* Conteúdo */}
       <div className="flex flex-1 flex-col justify-center items-center lg:items-start text-center lg:text-left lg:pl-12">
-        <img src="./logo.png" alt="Logo" className="w-48 lg:w-60 mb-8" />
+        <img src="./logo.png" alt="Logo" className="w-64 lg:w-96" />
 
         <h1 className="text-4xl lg:text-6xl leading-tight mb-6">
           Domine a <span className="font-bold">Soltura de Cachos</span>
