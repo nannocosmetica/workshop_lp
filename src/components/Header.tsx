@@ -25,6 +25,10 @@ function Header() {
             Início
           </a>
 
+          <a href="#workshop" className="transition hover:text-pink-400">
+            Workshop
+          </a>
+
           <a href="#sobre" className="transition hover:text-pink-400">
             Sobre
           </a>
