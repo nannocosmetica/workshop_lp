@@ -2,7 +2,7 @@ function HeroSection() {
   return (
     <section className="relative z-10 flex flex-col md:flex-row min-h-screen px-4 md:px-12 pt-20">
       {/* Conteúdo */}
-      <div className="flex flex-1 flex-col justify-center items-center md:items-start text-center md:text-left max-w-xl ">
+      <div className="flex flex-1 flex-col justify-center items-center md:items-start text-center md:text-left">
         <img src="./logo.png" alt="Logo" className="w-48 md:w-60 mb-8" />
 
         <h1 className="text-4xl md:text-6xl leading-tight mb-6">

@@ -8,7 +8,7 @@ const SubscriptionSection = () => {
         Soltura de Cachos e <b>impulsione seu salão!</b>
       </p>
       <a href="https://www.sympla.com.br/evento/imersao-em-soltura-de-cachos-com-mechas-morena-iluminada/3395799"
-        className="text-center bg-neutral-800 text-white rounded-md py-4 px-8 font-bold hover:scale-105 transition-transform flex items-center"
+        className="text-center bg-neutral-800 text-white rounded-md py-4 px-8 font-bold hover:scale-105 transition-transform flex items-center gap-x-4"
       >
         <span>
           QUERO DOMINAR A TÉCNICA DE SOLTURA DE CACHOS!
