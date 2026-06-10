@@ -2,6 +2,7 @@ import CardSection from "./components/CardSection";
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import SubscriptionSection from "./components/SubscriptionSection";
+import WhoSection from "./components/WhoSection";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       </div>
       <CardSection />
       <SubscriptionSection />
+      <WhoSection />
     </main>
   );
 }

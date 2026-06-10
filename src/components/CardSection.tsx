@@ -8,7 +8,7 @@ import { FaBottleWater } from "react-icons/fa6";
 function CardSection() {
   return (
     <section className="w-full bg-neutral-900 flex flex-col items-center justify-center p-16 px-4">
-      <p className="text-4xl mb-16 text-white">Em 9 horas de treinamento completo, você vai aprender:</p>
+      <p className="text-4xl mb-16 text-white text-center">Em 9 horas de treinamento completo, você vai aprender:</p>
       <div className="w-full bg-neutral-900 flex flex-col flex-wrap md:flex-row gap-4 items-center justify-center">
       <Card
         name={"QUÍMICA COSMÉTICA"}
