@@ -14,6 +14,7 @@ const WhoSection = () => {
         lg:px-12
         overflow-hidden
       "
+      
     >
       {/* Background com flip horizontal */}
       <div
@@ -32,7 +33,7 @@ const WhoSection = () => {
       <div className="absolute inset-0 bg-black/70 -z-10" />
 
       {/* Imagem */}
-      <div className="relative z-10 flex flex-1 items-end justify-center mt-10 lg:mt-0">
+      <div className="relative z-10 flex flex-1 items-center justify-center mt-10 lg:mt-0 flex-col">
         <img
           src="./who.png"
           alt="Foto da palestrante"
@@ -45,11 +46,13 @@ const WhoSection = () => {
             object-contain
             object-bottom
           "
+          id="palestrante"
         />
+        <a href="https://www.instagram.com/atitudblack/" className="inline-flex text-white text-2xl">@atitudblack</a>
       </div>
 
       {/* Conteúdo */}
-      <div className="relative z-10 flex flex-1 flex-col justify-center items-center lg:items-start text-center lg:text-left lg:pl-12">
+      <div className="relative z-10 flex flex-1 flex-col justify-center items-center lg:items-start text-center lg:text-left lg:pl-12 lg:mt-0 mt-12">
         <div className="lg:max-w-4/5">
           <h1 className="text-2xl lg:text-4xl leading-tight mb-6 text-white">
             Quem vai te ensinar

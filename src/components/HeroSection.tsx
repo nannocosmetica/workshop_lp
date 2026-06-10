@@ -1,6 +1,6 @@
 function HeroSection() {
   return (
-    <section className="relative z-10 flex flex-col lg:flex-row min-h-screen px-4 lg:px-12 pt-20">
+    <section className="relative z-10 flex flex-col lg:flex-row min-h-screen px-4 lg:px-12 pt-20" id="inicio">
       {/* Conteúdo */}
       <div className="flex flex-1 flex-col justify-center items-center lg:items-start text-center lg:text-left lg:pl-12">
         <img src="./logo.png" alt="Logo" className="w-48 lg:w-60 mb-8" />
@@ -34,7 +34,7 @@ function HeroSection() {
             to-purple-600
           "
         >
-          ME INSCREVER
+          QUERO ME INSCREVER
         </a>
       </div>
 
