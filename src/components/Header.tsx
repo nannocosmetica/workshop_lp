@@ -44,6 +44,10 @@ function Header() {
           <a href="#local" className="transition hover:text-pink-400">
             Local
           </a>
+
+          <a href="#ingresso" className="transition hover:text-pink-400">
+            Inscrição
+          </a>
         </nav>
 
         {/* Botão mobile */}

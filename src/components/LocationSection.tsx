@@ -1,6 +1,8 @@
+import { IoMdOpen } from "react-icons/io";
+
 const LocationSection = () => {
   return (
-    <section className="w-full bg-neutral-950 px-4 py-20" id="local">
+    <section className="w-full bg-neutral-800 px-4 py-20" id="local">
       <div className="mx-auto max-w-7xl">
         <div className="mb-10 text-center">
           <h2 className="text-3xl lg:text-4xl text-white mb-4">
@@ -46,9 +48,11 @@ const LocationSection = () => {
               from-orange-400
               via-pink-500
               to-purple-600
+              gap-x-2
             "
           >
-            ABRIR NO GOOGLE MAPS
+            <span>ABRIR NO GOOGLE MAPS</span>
+            <span><IoMdOpen size={22} /></span>
           </a>
         </div>
       </div>

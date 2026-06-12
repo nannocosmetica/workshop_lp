@@ -14,9 +14,9 @@ function HeroSection() {
         </p>
 
         <a
-          href="https://www.sympla.com.br/evento/imersao-em-soltura-de-cachos-com-mechas-morena-iluminada/3395799"
-          target="_blank"
-          rel="noreferrer"
+          href="#ingresso"
+          // target="_blank"
+          // rel="noreferrer"
           className="
             inline-flex
             items-center
@@ -34,7 +34,7 @@ function HeroSection() {
             to-purple-600
           "
         >
-          QUERO ME INSCREVER
+          SAIBA MAIS
         </a>
       </div>
 

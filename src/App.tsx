@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import LocationSection from "./components/LocationSection";
+import TicketSection from "./components/PricingSection";
 import { ScrollToTop } from "./components/ScrollToTop";
 import SubscriptionSection from "./components/SubscriptionSection";
 import WhoSection from "./components/WhoSection";
@@ -33,6 +34,7 @@ function App() {
       <SubscriptionSection />
       <WhoSection />
       <LocationSection />
+      <TicketSection />
       <ScrollToTop />
       <Footer />
     </main>
