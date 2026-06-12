@@ -101,14 +101,14 @@ function TicketSection() {
                 <div className="flex items-start gap-3">
                   <FaCheckCircle className="text-purple-500 mt-1 w-4 h-4 shrink-0" />
                   <p className="text-zinc-300">
-                    Kit exclusivo Nanno Cosmética para participantes.
+                    Kit Plex Hair Security Nanno Cosmética para participantes.
                   </p>
                 </div>
 
                 <div className="flex items-start gap-3">
                   <FaCheckCircle className="text-purple-500 mt-1 w-4 h-4 shrink-0" />
                   <p className="text-zinc-300">
-                    Brinde especial de boas-vindas.
+                    Coffee Break.
                   </p>
                 </div>
 
