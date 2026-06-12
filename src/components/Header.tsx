@@ -33,9 +33,9 @@ function Header() {
             Sobre
           </a>
 
-          <a href="#cadastro" className="transition hover:text-pink-400">
+          {/* <a href="#cadastro" className="transition hover:text-pink-400">
             Cadastro
-          </a>
+          </a> */}
 
           <a href="#palestrante" className="transition hover:text-pink-400">
             Palestrante
@@ -93,6 +93,14 @@ function Header() {
           </a>
 
           <a
+            href="#workshop"
+            onClick={closeMenu}
+            className="transition hover:text-pink-400"
+          >
+            Workshop
+          </a>
+
+          <a
             href="#sobre"
             onClick={closeMenu}
             className="transition hover:text-pink-400"
@@ -100,13 +108,13 @@ function Header() {
             Sobre
           </a>
 
-          <a
+          {/* <a
             href="#cadastro"
             onClick={closeMenu}
             className="transition hover:text-pink-400"
           >
             Cadastro
-          </a>
+          </a> */}
 
           <a
             href="#palestrante"
@@ -122,6 +130,14 @@ function Header() {
             className="transition hover:text-pink-400"
           >
             Local
+          </a>
+
+          <a
+            href="#ingresso"
+            onClick={closeMenu}
+            className="transition hover:text-pink-400"
+          >
+            Inscrição
           </a>
         </nav>
       )}
