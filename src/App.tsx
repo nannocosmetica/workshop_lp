@@ -37,7 +37,7 @@ function App() {
       <ScrollToTop />
       <Footer /> */}
       <img src="/logo_in.png" alt="Logo instituto nanno cosmética." width={200} className="mb-12"/>
-      <p className="text-white text-6xl">Em Breve um novo workshop para você!</p>
+      <p className="text-white text-6xl">Em breve um novo workshop para você!</p>
     </main>
   );
 }
