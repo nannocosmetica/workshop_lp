@@ -2,16 +2,18 @@ function HeroSection() {
   return (
     <section className="relative z-10 flex flex-col lg:flex-row min-h-screen px-4 lg:px-12 pt-20" id="inicio">
       {/* Conteúdo */}
-      <div className="flex flex-1 flex-col justify-center items-center lg:items-start text-center lg:text-left lg:pl-12">
+      <div className="flex flex-1 flex-col justify-center items-center lg:items-start text-center lg:text-left lg:pl-12 pb-4">
         <img src="./logo.png" alt="Logo" className="w-64 lg:w-96" />
 
-        <h1 className="text-4xl lg:text-6xl leading-tight mb-6">
-          Domine a <span className="font-bold">Soltura de Cachos</span>
+        <h1 className="text-4xl lg:text-4xl leading-tight mb-6">
+          <span className="font-bold">Nanno Cosmética & Luck Coiffeur</span>
+          <br />
+          <span className="text-2xl">Workshop Corte & Alisamento Progressivo</span>
         </h1>
 
-        <p className="text-base lg:text-lg text-zinc-300 leading-relaxed mb-8">
-          Você sabe diagnosticar o cabelo da sua cliente antes de qualquer processo químico?<br /><br />Sabe como garantir compatibilidade química, escolher o OX correto e trabalhar com segurança em cachos e crespos?<br /><br />Não perca essa oportunidade única de aprender como fazer uma Soltura de Cachos com Morena Iluminada de Maneira profissional e segura!
-        </p>
+        {/* <p className="text-base lg:text-lg text-zinc-300 leading-relaxed mb-8">Transforme sua forma de realizar o Permanente Afro com uma metodologia atual, segura e altamente técnica.</p> */}
+
+        <p className="text-base lg:text-lg text-zinc-300 leading-relaxed mb-8">No dia <b>21  de Setembro</b>, o Luck Coiffeur em Parceiria com o Instituto Nanno estará realizando um workshop exclusivo, compartilhando mais de 30 anos de experiência dedicados ao corte feminino, visagismo, alisamento e formação de profissionais.</p>
 
         <a
           href="#ingresso"
@@ -29,9 +31,7 @@ function HeroSection() {
             transition
             hover:scale-105
             bg-linear-to-r
-            from-orange-400
-            via-pink-500
-            to-purple-600
+            from-[#8C5C1C] via-[#F7C46E] to-[#AF7727]
           "
         >
           SAIBA MAIS
@@ -41,7 +41,7 @@ function HeroSection() {
       {/* Imagem */}
       <div className="flex flex-1 items-end justify-center mt-10 lg:mt-0">
         <img
-          src="./barbara3.png"
+          src="./tec.png"
           alt="Foto da palestrante"
           className="
             w-full

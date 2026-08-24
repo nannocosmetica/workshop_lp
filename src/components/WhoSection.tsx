@@ -13,8 +13,8 @@ const WhoSection = () => {
         px-4
         lg:px-12
         overflow-hidden
+        pb-8
       "
-      
     >
       {/* Background com flip horizontal */}
       <div
@@ -48,39 +48,26 @@ const WhoSection = () => {
           "
           id="palestrante"
         />
-        <a href="https://www.instagram.com/atitudblack/" className="inline-flex text-white text-2xl">@atitudblack</a>
+        <a href="https://www.instagram.com/luckcoiffeur/" className="inline-flex text-white text-2xl">
+          @luckcoiffeur
+        </a>
       </div>
 
       {/* Conteúdo */}
       <div className="relative z-10 flex flex-1 flex-col justify-center items-center lg:items-start text-center lg:text-left lg:pl-12 lg:mt-0 mt-12">
         <div className="lg:max-w-4/5">
-          <h1 className="text-2xl lg:text-4xl leading-tight mb-6 text-white">
-            Quem vai te ensinar
-          </h1>
+          <h1 className="text-2xl lg:text-4xl leading-tight mb-6 text-white">Quem vai te ensinar</h1>
 
           <p className="text-base lg:text-lg text-zinc-300 leading-relaxed mb-8 text-justify">
-            <b>Bárbara Souza</b> é especialista em cabelos crespos e cacheados,
-            mentora e fundadora do{" "}
-            <a
-              href="https://www.instagram.com/atitudblack/"
-              target="_blank"
-              rel="noreferrer"
-              className="inline-flex whitespace-nowrap items-center gap-x-1 text-cyan-500"
-            >
-              Atitudblack <IoMdOpen className="shrink-0" />
+            <b>Luck</b> é cabeleireiro, educador e especialista em corte feminino, visagismo e alisamento, com mais de 30 anos de experiência dedicados à formação de profissionais da beleza. À frente do{" "}
+            <a href="https://www.instagram.com/luckcoiffeur/" target="_blank" rel="noreferrer" className="inline-flex whitespace-nowrap items-center gap-x-1 text-cyan-500">
+              Luck Coiffeur <IoMdOpen className="shrink-0" />
             </a>
-            , salão referência no cuidado, valorização e transformação de
-            cabelos naturais. Com mais de 15 anos de experiência na área da
-            beleza capilar, atua ajudando mulheres a conquistarem mais
-            autoestima, segurança e liberdade através de técnicas profissionais
-            voltadas para cachos e crespos.
+            , salão de referência há 37 anos no mercado, alia conhecimento técnico, prática e metodologia para formar profissionais capazes de oferecer resultados seguros, modernos e de alta qualidade.
           </p>
 
           <p className="text-base lg:text-lg text-zinc-300 leading-relaxed mb-8 text-justify">
-            Na <b>Imersão Soltura de Cachos</b>, Bárbara compartilhará sua
-            vivência prática, conhecimento técnico e olhar especializado para
-            quem deseja dominar procedimentos com mais segurança, resultado e
-            respeito à estrutura dos fios.
+            No <b>Workshop de Corte Feminino e Visagismo</b>, em parceria com o Instituto Nanno, Luck compartilhará sua vasta experiência, abordando desde tendências de corte para 2027 e visagismo aplicado na prática até técnicas de alisamento, cronograma capilar e estratégias para valorização profissional, permitindo que os participantes dominem procedimentos com segurança, excelência e resultados que encantam suas clientes.
           </p>
 
           <a
@@ -95,17 +82,15 @@ const WhoSection = () => {
               px-8
               py-4
               font-semibold
-              text-white
+              text-black
               transition
               hover:scale-105
               bg-linear-to-r
-              from-orange-400
-              via-pink-500
-              to-purple-600
+              from-[#8C5C1C] via-[#F7C46E] to-[#AF7727]
               w-full
             "
           >
-            QUERO DOMINAR A SOLTURA DE CACHOS
+            QUERO ME INSCREVER!
           </a>
         </div>
       </div>
