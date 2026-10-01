@@ -35,7 +35,7 @@ function TicketSection() {
 
                 <div className="flex items-end gap-2">
                   <div className="flex items-baseline">
-                    <span className="text-5xl lg:text-6xl font-bold text-violet-500">R$350</span>
+                    <span className="text-5xl lg:text-6xl font-bold text-violet-500">R$380</span>
                     <span className="text-violet-500 text-lg mb-2">,00</span>
                   </div>
                 </div>
