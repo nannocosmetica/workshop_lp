@@ -9,9 +9,9 @@ function TicketSection() {
         <div className="text-center mb-12">
           <span className="text-sm uppercase tracking-[0.3em] text-violet-500">Garanta sua vaga</span>
 
-          <h2 className="text-3xl lg:text-5xl font-bold mt-4 mb-6 leading-tight">Ingresso para o Workshop de Corte Feminino e Visagismo</h2>
+          <h2 className="text-3xl lg:text-5xl font-bold mt-4 mb-6 leading-tight">Ingresso para o Workshop de Tons &amp; Cores – Coloração e Descoloração</h2>
 
-          <p className="text-zinc-300 text-base lg:text-lg max-w-3xl mx-auto leading-relaxed">Garanta sua participação em uma experiência completa de aprendizado, prática e atualização profissional com o Luck Coiffeur e o Instituto Nanno.</p>
+          <p className="text-zinc-300 text-base lg:text-lg max-w-3xl mx-auto leading-relaxed">Garanta sua participação em uma experiência completa de aprendizado, prática e atualização profissional com Vitor Paim e a Nanno Cosmética, e transforme cada iluminação em uma assinatura.</p>
         </div>
 
         {/* Card do ingresso */}
@@ -35,18 +35,19 @@ function TicketSection() {
 
                 <div className="flex items-end gap-2">
                   <div className="flex items-baseline">
-                    <span className="text-5xl lg:text-6xl font-bold text-violet-500">R$160</span>
+                    <span className="text-5xl lg:text-6xl font-bold text-violet-500">R$350</span>
                     <span className="text-violet-500 text-lg mb-2">,00</span>
                   </div>
                 </div>
 
                 <p className="text-white mt-3">
-                  Data: <b>21 de setembro de 2026</b> <br />
-                  Horário: <b>09h às 16h</b>
+                  Data: <b>23 de novembro de 2026</b> <br />
+                  Horário: <b>08h às 17h</b> <br />
+                  Local: <b>Rua do Arroz, nº 90, Loja C – Penha</b>
                 </p>
               </div>
 
-              <a href="https://www.sympla.com.br/evento/workshop-de-corte-alisamento-progressivo/3547852" target="_blank" rel="noopener noreferrer" className="inline-flex gap-x-2 items-center justify-center w-full lg:w-auto bg-violet-500 hover:bg-violet-600 text-neutral-950 font-bold px-8 py-4 rounded-full transition-all duration-300 shadow-lg hover:scale-105">
+              <a href="https://www.sympla.com.br/evento/workshop-de-tons-cores/3599555" target="_blank" rel="noopener noreferrer" className="inline-flex gap-x-2 items-center justify-center w-full lg:w-auto bg-violet-500 hover:bg-violet-600 text-neutral-950 font-bold px-8 py-4 rounded-full transition-all duration-300 shadow-lg hover:scale-105">
                 <span className="text-white">Comprar ingresso agora</span>
                 <IoMdOpen size={22} className="shrink-0" color="fff" />
               </a>
@@ -69,37 +70,37 @@ function TicketSection() {
 
                 <div className="flex items-start gap-3">
                   <FaCheckCircle className="text-violet-500 mt-1 w-4 h-4 shrink-0" />
-                  <p className="text-zinc-300">Acesso completo ao workshop presencial de corte feminino e visagismo.</p>
+                  <p className="text-zinc-300">Acesso completo ao workshop presencial de coloração e descoloração.</p>
                 </div>
 
                 <div className="flex items-start gap-3">
                   <FaCheckCircle className="text-violet-500 mt-1 w-4 h-4 shrink-0" />
-                  <p className="text-zinc-300">Cortes femininos modernos, comerciais e tendências para 2027.</p>
+                  <p className="text-zinc-300">Fundamentos de mechas criativas e diferenças práticas entre o pó descolorante azul tradicional e o pó descolorante branco.</p>
                 </div>
 
                 <div className="flex items-start gap-3">
                   <FaCheckCircle className="text-violet-500 mt-1 w-4 h-4 shrink-0" />
-                  <p className="text-zinc-300">Visagismo aplicado na prática e técnicas de alisamento com produtos, ativos e protocolos corretos.</p>
+                  <p className="text-zinc-300">Iluminação com pó descolorante azul e técnica de mão livre com pó descolorante branco.</p>
                 </div>
 
                 <div className="flex items-start gap-3">
                   <FaCheckCircle className="text-violet-500 mt-1 w-4 h-4 shrink-0" />
-                  <p className="text-zinc-300">Cronograma capilar como diferencial no atendimento e estratégias para aumentar a durabilidade dos alisamentos.</p>
+                  <p className="text-zinc-300">Construção de loiro mais claro e morena iluminada, com tonalização criativa usando a cartela de cores Nanno.</p>
                 </div>
 
                 <div className="flex items-start gap-3">
                   <FaCheckCircle className="text-violet-500 mt-1 w-4 h-4 shrink-0" />
-                  <p className="text-zinc-300">Posicionamento, valorização profissional e gerenciamento e fidelização de clientes.</p>
+                  <p className="text-zinc-300">Demonstração prática em duas modelos, com as duas técnicas lado a lado.</p>
                 </div>
 
                 <div className="flex items-start gap-3">
                   <FaCheckCircle className="text-violet-500 mt-1 w-4 h-4 shrink-0" />
-                  <p className="text-zinc-300">Os primeiros inscritos recebem uma máscara de tratamento Pro Gravidade Nanno de 1Kg.</p>
+                  <p className="text-zinc-300">Todos os participantes recebem um Kit Nanno Bonificado.</p>
                 </div>
 
                 <div className="flex items-start gap-3">
                   <FaCheckCircle className="text-violet-500 mt-1 w-4 h-4 shrink-0" />
-                  <p className="text-zinc-300">Networking com Luck Coiffeur, profissionais da beleza e equipe técnica da Nanno Cosmética.</p>
+                  <p className="text-zinc-300">Networking com Vitor Paim, profissionais da beleza e equipe técnica da Nanno Cosmética.</p>
                 </div>
               </div>
             </div>

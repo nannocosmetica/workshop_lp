@@ -36,7 +36,7 @@ const WhoSection = () => {
       <div className="relative z-10 flex flex-1 items-center justify-center mt-10 lg:mt-0 flex-col">
         <img
           src="./who.png"
-          alt="Foto da palestrante"
+          alt="Foto do palestrante Vitor Paim"
           className="
             w-full
             max-w-xs
@@ -48,8 +48,8 @@ const WhoSection = () => {
           "
           id="palestrante"
         />
-        <a href="https://www.instagram.com/luckcoiffeur/" className="inline-flex text-white text-2xl">
-          @luckcoiffeur
+        <a href="https://www.instagram.com/vitorpaimstudio/" target="_blank" rel="noreferrer" className="inline-flex text-white text-2xl">
+          @vitorpaimstudio
         </a>
       </div>
 
@@ -59,15 +59,15 @@ const WhoSection = () => {
           <h1 className="text-2xl lg:text-4xl leading-tight mb-6 text-white">Quem vai te ensinar</h1>
 
           <p className="text-base lg:text-lg text-zinc-300 leading-relaxed mb-8 text-justify">
-            <b>Luck</b> é cabeleireiro, educador e especialista em corte feminino, visagismo e alisamento, com mais de 30 anos de experiência dedicados à formação de profissionais da beleza. À frente do{" "}
-            <a href="https://www.instagram.com/luckcoiffeur/" target="_blank" rel="noreferrer" className="inline-flex whitespace-nowrap items-center gap-x-1 text-cyan-500">
-              Luck Coiffeur <IoMdOpen className="shrink-0" />
+            <b>Vitor Paim</b> é cabeleireiro, educador e especialista em coloração, descoloração e iluminação, dedicado à arte da cor e à formação de profissionais da beleza. À frente do{" "}
+            <a href="https://www.instagram.com/vitorpaimstudio/" target="_blank" rel="noreferrer" className="inline-flex whitespace-nowrap items-center gap-x-1 text-cyan-500">
+              Vitor Paim Studio <IoMdOpen className="shrink-0" />
             </a>
-            , salão de referência há 37 anos no mercado, alia conhecimento técnico, prática e metodologia para formar profissionais capazes de oferecer resultados seguros, modernos e de alta qualidade.
+            , une conhecimento técnico, olhar artístico e domínio real dos produtos para criar loiros, morenas iluminadas e tonalizações com identidade própria.
           </p>
 
           <p className="text-base lg:text-lg text-zinc-300 leading-relaxed mb-8 text-justify">
-            No <b>Workshop de Corte Feminino e Visagismo</b>, em parceria com o Instituto Nanno, Luck compartilhará sua vasta experiência, abordando desde tendências de corte para 2027 e visagismo aplicado na prática até técnicas de alisamento, cronograma capilar e estratégias para valorização profissional, permitindo que os participantes dominem procedimentos com segurança, excelência e resultados que encantam suas clientes.
+            No <b>Workshop de Tons &amp; Cores – Coloração e Descoloração</b>, em parceria com a Nanno Cosmética, Vitor compartilhará sua experiência abordando desde os fundamentos das mechas criativas e as diferenças práticas entre o pó descolorante azul tradicional e o pó descolorante branco até a técnica de mão livre, a construção de loiros mais claros e morenas iluminadas e a tonalização criativa com a cartela de cores Nanno, permitindo que os participantes dominem cada etapa da iluminação com segurança, liberdade na aplicação e resultados personalizados que encantam seus clientes.
           </p>
 
           <a

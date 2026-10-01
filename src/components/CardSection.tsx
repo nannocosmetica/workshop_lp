@@ -4,7 +4,7 @@ import Card from "./Card";
 function CardSection() {
   return (
     <section className="w-full bg-neutral-900 flex flex-col items-center justify-center p-16 px-4" id="workshop">
-      <p className="text-4xl mb-16 text-white text-center">Em 7 horas de treinamento completo, você vai aprender:</p>
+      <p className="text-4xl mb-16 text-white text-center">Em 9 horas de workshop prático, você vai aprender:</p>
 
       <div
         className="
@@ -19,29 +19,23 @@ function CardSection() {
           justify-items-stretch
         "
       >
-        <Card name={"Cortes Femininos Modernos e Comerciais"} text={"Aprenda técnicas de cortes atuais e comerciais que valorizam diferentes formatos de rosto, tipos de cabelo e estilos, aumentando a versatilidade do seu atendimento."} icon={<FaStar size={32} />} />
+        <Card name={"Fundamentos de Mechas Criativas"} text={"Entenda os princípios das mechas criativas, como divisão, posicionamento e planejamento, para criar iluminações modernas e com identidade própria."} icon={<FaStar size={32} />} />
 
-        <Card name={"Tendências de Corte para 2027"} text={"Conheça as principais tendências de cortes para 2027 e descubra como adaptar estilos modernos às características e preferências de cada cliente."} icon={<FaStar size={32} />} />
+        <Card name={"Pó Descolorante Azul x Pó Descolorante Branco"} text={"Conheça na prática as diferenças entre o pó descolorante azul tradicional e o pó descolorante branco, e saiba quando escolher cada um de acordo com a técnica e o resultado desejado."} icon={<FaStar size={32} />} />
 
-        <Card name={"Visagismo Aplicado na Prática"} text={"Aprenda a aplicar os princípios do visagismo para criar cortes que valorizem o formato do rosto, a personalidade e a imagem que cada cliente deseja transmitir."} icon={<FaStar size={32} />} />
+        <Card name={"Iluminação com Pó Descolorante Azul"} text={"Aprenda a técnica de iluminação com o pó descolorante azul tradicional, com controle do clareamento, uniformidade e segurança em cada etapa da aplicação."} icon={<FaStar size={32} />} />
 
-        <Card name={"Valorização do Serviço de Corte"} text={"Descubra estratégias para agregar valor ao serviço de corte, melhorar a experiência da cliente e transformar uma técnica profissional em uma oportunidade de aumentar seus resultados."} icon={<FaStar size={32} />} />
+        <Card name={"Técnica de Mão Livre com Pó Descolorante Branco"} text={"Domine a iluminação à mão livre com o pó descolorante branco, uma das técnicas mais procuradas hoje, e ganhe liberdade na aplicação para criar resultados naturais e personalizados."} icon={<FaStar size={32} />} />
 
-        <Card name={"Posicionamento e Valorização Profissional"} text={"Aprenda como fortalecer seu posicionamento, transmitir autoridade e valorizar sua experiência para se destacar no mercado e conquistar clientes que reconhecem seu trabalho."} icon={<FaStar size={32} />} />
+        <Card name={"Loiro Mais Claro e Morena Iluminada"} text={"Descubra como construir um loiro mais claro e uma morena iluminada, entendendo o que muda em cada processo, desde o planejamento até o resultado final."} icon={<FaStar size={32} />} />
 
-        <Card name={"Gerenciamento e Fidelização de Clientes"} text={"Conheça estratégias práticas para organizar seu atendimento, criar relacionamento com as clientes e aumentar a fidelização, o retorno e a recorrência no salão."} icon={<FaStar size={32} />} />
+        <Card name={"Tonalização Criativa com a Cartela Nanno"} text={"Aprenda a tonalizar de forma criativa utilizando a cartela de cores Nanno, combinando tons para valorizar a iluminação e entregar um acabamento exclusivo para cada cliente."} icon={<FaStar size={32} />} />
 
-        <Card name={"Cronograma Capilar como Diferencial"} text={"Aprenda a utilizar o cronograma capilar como ferramenta de diagnóstico e tratamento, oferecendo um atendimento mais personalizado e agregando valor aos seus serviços."} icon={<FaStar size={32} />} />
+        <Card name={"Demonstração Prática em Duas Modelos"} text={"Acompanhe a execução das duas técnicas lado a lado, em duas modelos, e compare em tempo real o comportamento de cada descolorante e o resultado de cada abordagem."} icon={<FaStar size={32} />} />
 
-        <Card name={"Técnicas e Estratégias para Melhores Resultados"} text={"Conheça técnicas e estratégias que ajudam a otimizar cada etapa do atendimento, melhorar a execução dos procedimentos e alcançar resultados mais consistentes."} icon={<FaStar size={32} />} />
+        <Card name={"A Ciência por Trás de Cada Escolha"} text={"Entenda o comportamento de cada descolorante e os fundamentos técnicos que orientam suas decisões, para trabalhar com mais segurança, previsibilidade e domínio real dos produtos."} icon={<FaStar size={32} />} />
 
-        <Card name={"Produtos, Ativos e Protocolos Corretos"} text={"Entenda como selecionar produtos, ativos e protocolos de acordo com as necessidades da fibra capilar, proporcionando mais segurança, eficiência e qualidade nos resultados."} icon={<FaStar size={32} />} />
-
-        <Card name={"Como Aumentar a Durabilidade dos Alisamentos"} text={"Aprenda estratégias de manutenção e cuidados que contribuem para prolongar os resultados dos alisamentos, preservar a fibra capilar e aumentar a satisfação das clientes."} icon={<FaStar size={32} />} />
-
-        <Card name={"Segurança nos Procedimentos"} text={"Conheça os principais cuidados para realizar procedimentos químicos com mais segurança, desde a avaliação da fibra até a escolha do protocolo e acompanhamento dos resultados."} icon={<FaStar size={32} />} />
-
-        <Card name={"Dicas Práticas para o Dia a Dia do Salão"} text={"Confira dicas práticas e estratégias que podem ser aplicadas imediatamente na rotina do salão para otimizar processos, melhorar o atendimento e elevar a qualidade dos resultados."} icon={<FaStar size={32} />} />
+        <Card name={"Arte, Assinatura e Novas Oportunidades"} text={"Explore o lado artístico da profissão sem abrir mão da segurança técnica, transforme cada iluminação em uma assinatura e amplie suas oportunidades no mercado da beleza."} icon={<FaStar size={32} />} />
       </div>
     </section>
   );
