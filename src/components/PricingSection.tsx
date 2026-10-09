@@ -33,14 +33,28 @@ function TicketSection() {
               <div className="mb-8">
                 <p className="text-white mb-2">Investimento</p>
 
-                <div className="flex items-end gap-2">
-                  <div className="flex items-baseline">
-                    <span className="text-5xl lg:text-6xl font-bold text-violet-500">R$380</span>
-                    <span className="text-violet-500 text-lg mb-2">,00</span>
+                {/* Preço com desconto */}
+                <div className="flex flex-col gap-1">
+                  <p className="text-zinc-400 text-base lg:text-lg uppercase">
+                    De: <span className="line-through">R$ 380,00</span>
+                  </p>
+
+                  <div className="flex items-baseline gap-2">
+                    <span className="text-xl lg:text-2xl font-bold uppercase">Por:</span>
+                    <div className="flex items-baseline">
+                      <span className="text-5xl lg:text-6xl font-bold text-violet-500">R$200</span>
+                      <span className="text-violet-500 text-lg">,00</span>
+                    </div>
                   </div>
+
+                  <p className="text-zinc-300 text-base lg:text-lg uppercase">(ou 12x de R$ 20,68)</p>
+
+                  <span className="inline-flex w-fit items-center mt-4 bg-violet-500/15 border border-violet-500/40 text-violet-300 text-sm font-bold uppercase tracking-wider px-4 py-1.5 rounded-full">
+                    1º Lote – 47% de desconto
+                  </span>
                 </div>
 
-                <p className="text-white mt-3">
+                <p className="text-white mt-6">
                   Data: <b>23 de novembro de 2026</b> <br />
                   Horário: <b>08h às 17h</b> <br />
                   Local: <b>Rua do Arroz, nº 90, Loja C – Penha</b>
